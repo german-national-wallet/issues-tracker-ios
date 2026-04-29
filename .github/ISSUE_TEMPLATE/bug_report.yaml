@@ -76,7 +76,3 @@ body:
       options:
         - label: I have searched for existing issues
           required: true
-        - label: I have read the contributing guidelines
-          required: true
-        - label: I am willing to submit a PR to fix this
-          required: false
