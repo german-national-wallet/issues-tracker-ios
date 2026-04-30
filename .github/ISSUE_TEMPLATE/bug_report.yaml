@@ -20,16 +20,12 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: os
+  - type: input
+    id: iOS version
     attributes:
-      label: Operating System
-      description: Which OS are you on?
-      options:
-        - Windows
-        - macOS
-        - Linux
-        - Other
+      label: iOS Version
+      description: Which iOS version are you on?
+      placeholder: "e.g. 26.1.0"
     validations:
       required: true
 
@@ -67,7 +63,6 @@ body:
     attributes:
       label: Relevant Logs or Screenshots
       description: Paste any relevant logs here (optional).
-    # No `validations` block = optional
 
   - type: checkboxes
     id: checklist
