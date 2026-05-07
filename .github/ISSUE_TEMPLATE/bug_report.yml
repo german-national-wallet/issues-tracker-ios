@@ -1,4 +1,4 @@
-fname: Bug Report
+name: Bug Report
 description: Report a bug in the application
 title: "[Bug]: "
 labels: ["bug", "triage"]
