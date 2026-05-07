@@ -1,4 +1,4 @@
-name: Bug Report
+fname: Bug Report
 description: Report a bug in the application
 title: "[Bug]: "
 labels: ["bug", "triage"]
@@ -21,7 +21,7 @@ body:
       required: true
 
   - type: input
-    id: iOS version
+    id: iOSversion
     attributes:
       label: iOS Version
       description: Which iOS version are you on?
