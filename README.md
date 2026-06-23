@@ -9,13 +9,13 @@ Current version: 0.2.4 (59)
 | Area | Feature | Status | Version |
 |---|---|---|---|
 | OpenID4VCI | Issue PID credentials in both mdoc and SD-JWT VC formats | ✅ | 0.2.4 (59) |
-| OpenID4VCI | Issue EAA credentials from issuer offers and the in app list | ✅ | 0.2.4 (59) |
-| OpenID4VCI | Open and issue from an issuer credential offer link | ✅ | 0.2.4 (59) |
+| OpenID4VCI | Issue EAA credentials, both wallet initiated and issuer initiated | ✅ | 0.2.4 (59) |
+| OpenID4VCI | Resolve a credential_offer, both by value and by reference | ✅ | 0.2.4 (59) |
 | OpenID4VCI | Secure issuance with PAR, DPoP and wallet attestation | ✅ | 0.2.4 (59) |
 | OpenID4VCI | Complete deferred credentials | ✅ | 0.2.4 (59) |
 | OpenID4VCI | Re issue PID credentials using the stored refresh token | ✅ | 0.2.4 (59) |
 | OpenID4VP | Present PID and EAA credentials to verifiers | ✅ | 0.2.4 (59) |
-| OpenID4VP | Verify the verifier identity (x509_hash and x509_san_dns) | ✅ | 0.2.4 (59) |
+| OpenID4VP | Verify the verifier identity, supported client_id_schemes:<ul><li>x509_san_dns</li><li>x509_hash</li></ul> | ✅ | 0.2.4 (59) |
 
 ## Upcoming features
 
