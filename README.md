@@ -2,7 +2,7 @@
 
 A public repository for issues management and bug reporting for Germany's iOS Wallet Application
 
-Current version: 0.2.4 (59)
+Current version: 0.2.7 (64)
 
 ## Supported features
 
@@ -25,7 +25,7 @@ Current version: 0.2.4 (59)
 
 | Area | Feature | Expected |
 |---|---|---|
-| OpenID4VCI / OpenID4VP | Present a credential during issuance of another credential | June 2026 |
+| OpenID4VCI / OpenID4VP | Present a credential during issuance of another credential | July 2026 |
 | OpenID4VCI | Validate signed issuer metadata | August 2026 |
 | OpenID4VCI | Obtain information about the issuer using Issuers' Registration Certificates included in the issuer metadata | August 2026 |
 | OpenID4VCI | Support non key-bound EAAs | September 2026 |
@@ -36,6 +36,23 @@ Current version: 0.2.4 (59)
 note that no support for Digital Credentials API is planned due to the lack of support on iOS
 
 ## Changelog
+
+### v0.2.7 (64)
+
+Features
+- Added support for refreshing credentials when available credentials are low (current batch size is 10 per credential format)
+- Migrated wallet backend integration to the newer v1/wpb endpoints and updated wallet registration flows
+- Updated environment configuration to use the Youniqx backend setup
+- Improved key protection by encrypting wallet data and binding previously unencrypted keys to the Platform Authenticator
+- Added key attestation inside the DPoP proof
+
+Fixes
+- Fixed presentation parsing for nested claims
+- Fixed EAA credential detail layout when credentials include a background image
+- Fixed issuance success navigation so the stack is properly cleared
+
+Known issues
+- When disabling and re-enabling platform authentication, after re-issuing the PID, it only shows up in the wallet after restarting the application
 
 ### v0.2.4 (59)
 
