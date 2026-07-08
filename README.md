@@ -16,7 +16,6 @@ Current version: 0.2.7 (64)
 | OpenID4VCI | Send Wallet Attestations | ✅ | 0.2.4 (59) |
 | OpenID4VCI | Send Key Attestations for PID Issuance | ✅ | 0.2.4 (59) |
 | OpenID4VCI | Re-issue credentials using refresh tokens | ✅ | 0.2.4 (59) |
-| OpenID4VCI | Deferred Issuance | ✅ | 0.2.4 (59) |
 | OpenID4VP | Present PID and EAA credentials to verifiers | ✅ | 0.2.4 (59) |
 | OpenID4VP | Verify the verifier identity, supported client_id_schemes are <ul><li>x509_san_dns</li> and <li>x509_hash</li></ul> | ✅ | 0.2.4 (59) |
 | OpenID4VP | Send encrypted presentation responses to verifiers | ✅ | 0.2.4 (59) |
