@@ -2,17 +2,16 @@
 
 Features
 - Implement new color tokens and fonts
-- Integrate splash screen
-- Validate NiScy's OpenID4VP response encryption implementation
-- implement presentation during issuance
-- Implement delete RWSCA endpoint and clean the key deletion
+- Implement splash screen with branded colors
+- Validate NiScy's OpenID4VP request encryption implementation
+- implement credential presentation during credential issuance
+- Implement delete RWSCA endpoint and clean up the key deletion
 
 Fixes
-- Remove Scaleway X-Auth-Token from refreshUrL to PID Provider
-- After disabling and re-enabling PA, the wallet is deleted, but PID can only be issued after app restart
-- Ensure that the actual requested claims are disclosed
-- When disabling and re-enabling platform authentication, after re-issuing the PID, it only shows up in the wallet after restarting the application
+- After disabling and re-enabling PA, the wallet is deleted, but PID could only be issued after app restart
+- Not all requested claims were returned to the verifier
+- When disabling and re-enabling platform authentication, after re-issuing the PID, it only showed up in the wallet after restarting the application
 
 Known issues
+
 - Transport pin flow is not working as expected
-- please reinstall the app if you still have 0.2.4 (59)
