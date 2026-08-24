@@ -1,4 +1,4 @@
-### Release Notes - v0.2.11 (73)
+### Release Notes - v0.2.11 (74)
 
 Features
 - Added the revocation onboarding screens
