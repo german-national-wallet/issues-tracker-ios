@@ -2,7 +2,6 @@
 
 Features
 - Added the revocation onboarding screens
-- Added the credential dashboard and credential detail screens
 - EAA issuance flows use new template UI components
 - Updated the PIN screen to the new design
 - Added push notification support
