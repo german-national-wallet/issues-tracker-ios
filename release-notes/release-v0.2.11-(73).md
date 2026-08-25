@@ -22,3 +22,6 @@ Fixes
 - Close buttons in the EAA issuance flow did not work
 - Colors were inconsistent between the EAA offer and the credential dashboard
 - Changing the device passcode permanently broke the wallet, and only deleting and reinstalling recovered it
+
+Known issues
+- Credential logos might get displayed too big
