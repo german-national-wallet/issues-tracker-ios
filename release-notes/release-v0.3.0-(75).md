@@ -17,3 +17,4 @@ Fixes
 
 Known issues
 - PID credentials are displayed incorrectly or not at all (issue #20)
+- After entering CAN, PID re-issuance only works after reinstalling the app
