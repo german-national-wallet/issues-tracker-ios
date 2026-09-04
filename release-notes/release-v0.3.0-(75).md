@@ -13,7 +13,6 @@ Features
 
 Fixes
 - The success animation at the end of issuance moved the message on screen
-- Telemetry and debug logs no longer carry secrets
 
 Known issues
 - PID credentials are displayed incorrectly or not at all (issue #20)
