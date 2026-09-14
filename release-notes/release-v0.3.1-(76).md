@@ -5,6 +5,6 @@ Features
 - The wallet now sends its device model to the wallet provider on registration
 
 Known issues
-- PID credentials are displayed incorrectly or not at all (issue #20)
+- PID credential data is displayed incorrectly or not at all (issue #20)
 - After entering CAN, PID re-issuance only works after reinstalling the app
 - A potential `account not found` error is unhandled when updating from older app versions
