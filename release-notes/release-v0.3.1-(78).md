@@ -3,7 +3,6 @@
 Features
 - Add bottom TabBar
 - Implement new onboarding screens and animations
-- Implement finalized designs in the PID issuance flow
 - Updating PID Card designs
 - Changed app name, added new logo assets, fixed text references
 - Replace app icon assets with updated no-alpha assets
