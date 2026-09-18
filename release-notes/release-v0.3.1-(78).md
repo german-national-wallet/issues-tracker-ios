@@ -5,7 +5,7 @@ Features
 - Implement new onboarding screens and animations
 - Updating PID Card designs
 - Changed app name, added new logo assets, fixed text references
-- Replace app icon assets with updated no-alpha assets
+- Replace app icon assets
 
 Security
 - Enforce TLS certificate pinning for the wallet backend and rwsca
