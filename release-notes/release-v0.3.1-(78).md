@@ -15,4 +15,3 @@ Security
 
 Fixes
 - Fix for cold launch mdvm renewal
-- Add feature flag api key to workflow
