@@ -1,4 +1,4 @@
-### Release Notes - v0.3.1 (76)
+### Release Notes - v0.3.1 (78)
 
 Features
 - Add bottom TabBar (#463)
