@@ -9,7 +9,7 @@ Features
 
 Security
 - Enforce TLS certificate pinning for the wallet backend and rwsca
-- Carry the supplier and author an SBOM is required to have
+- Include supplier and author information in generated SBOMs
 - Update SECURITY.md to include information about the launched bug bounty
 
 Fixes
