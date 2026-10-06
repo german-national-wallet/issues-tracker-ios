@@ -2,7 +2,7 @@
 
 A public repository for issues management and bug reporting for Germany's iOS Wallet Application
 
-Current version: [v0.3.1 (78)](/release-notes/release-v0.3.1-(78).md)
+Current version: [v0.3.9 (80)](/release-notes/release-v0.3.9-(80).md)
 
 ## Supported features
 
@@ -16,20 +16,20 @@ Current version: [v0.3.1 (78)](/release-notes/release-v0.3.1-(78).md)
 | OpenID4VCI | Send Wallet Attestations | ✅ | 0.2.4 (59) |
 | OpenID4VCI | Send Key Attestations for PID Issuance | ✅ | 0.2.4 (59) |
 | OpenID4VCI | Re-issue credentials using refresh tokens | ✅ | 0.2.4 (59) |
+| OpenID4VCI | Encrypt credential issuance requests | ✅ | 0.2.7 (68) |
+| OpenID4VCI / OpenID4VP | Present a credential during issuance of another credential | ✅ | 0.2.7 (68)|
+| OpenID4VCI | Validate signed issuer metadata | ✅ | 0.3.9 (80) |
 | OpenID4VP | Present PID and EAA credentials to verifiers | ✅ | 0.2.4 (59) |
 | OpenID4VP | Verify the verifier identity, supported client_id_schemes are <ul><li>x509_san_dns</li> and <li>x509_hash</li></ul> | ✅ | 0.2.4 (59) |
 | OpenID4VP | Send encrypted presentation responses to verifiers | ✅ | 0.2.4 (59) |
-| OpenID4VCI | Encrypt credential issuance requests | ✅ | 0.2.7 (68) |
-| OpenID4VCI / OpenID4VP | Present a credential during issuance of another credential | ✅ | 0.2.7 (68)|
+| OpenID4VP | Prevent overasking using RP Registration Certificates included in the presentation requests | ✅ | 0.3.9 (80) |
 
 ## Upcoming features
 
 | Area | Feature | Expected |
 |---|---|---|
-| OpenID4VCI | Validate signed issuer metadata | August 2026 |
-| OpenID4VCI | Obtain information about the issuer using Issuers' Registration Certificates included in the issuer metadata | August 2026 |
-| OpenID4VCI | Support non key-bound EAAs | September 2026 |
-| OpenID4VCI | Encrypt credential issuance responses | September 2026 |
-| OpenID4VP | Prevent overasking using RP Registration Certificates included in the presentation requests | Q3 2026 (Conditional to Reference Implementation's implementation) |
+| OpenID4VCI | Obtain information about the issuer using Issuers' Registration Certificates included in the issuer metadata | October 2026 |
+| OpenID4VCI | Support non key-bound EAAs | October 2026 |
+| OpenID4VCI | Encrypt credential issuance responses | October 2026 |
 
 note that no support for Digital Credentials API is planned due to the lack of support on iOS
