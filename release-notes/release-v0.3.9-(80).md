@@ -4,7 +4,7 @@ Features
 - Added the settings screen, including wallet loss protection
 - Added the app intro and platform authentication setup screens
 - Enforced signed Issuer metadata, removed old trust anchors
-- Presentation requests are refused when the relying party is not registered to ask for the data
+- Presentation requests are refused when the relying party is asking more than what was registered in the registration certificate (prevent overasking)
 - Presentation errors are now shown in designed dialogs, with a specific message for each
 - Distinguish trust anchors per app environment
 - Updated the wallet kit and RASP libraries
