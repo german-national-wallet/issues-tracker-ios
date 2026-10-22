@@ -12,7 +12,7 @@
 - The simulated eID card now uses a random pseudonym key.
 
 **Fixes**
-- The wallet rejection is now sent back to the relying party when the user declines a presentation.
+- The wallet follows the Relying Party's redirect_uri when the user declines a presentation.
 - The consent screen loading state is fixed.
 - PIN view focus handling is fixed.
 - Failed AES-GCM authentication now throws an error instead of failing silently.
