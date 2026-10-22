@@ -5,9 +5,9 @@
 **Features**
 - Added an Activity list: users can see all credential activity (issuance and presentations) in the wallet dashboard, including a details view for each entry.
 - Retry action added to failed presentations.
-- Added updated trust anchors for Sandbox Registrar and EUDIhub```
+- Added updated trust anchors for Sandbox Registrar and EUDI Hub.
 - The first PID/EAA presentation now shows the overview screen.
-- A minimum RSA key size is now enforced.
+- Credential response encryption is limited to ECDH-ES on P-256 with AES-GCM, and RSA is switched off.
 - The simulated eID card now uses a random pseudonym key.
 
 **Fixes**
