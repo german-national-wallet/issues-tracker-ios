@@ -13,6 +13,4 @@
 - The eID card PIN retry after a wrong PIN is fixed.
 - Keyboard navigation on iOS 27 is fixed.
 - Accessibility focus on the "no internet" popup is fixed.
-
-**Known issues**
-- PID credentials may display incorrectly or not at all (issue #20).
+- PID credentials now display correctly (Fixes issue #20).
