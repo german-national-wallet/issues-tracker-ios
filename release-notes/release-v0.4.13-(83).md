@@ -5,12 +5,8 @@
 - Timeouts are handled gracefully during startup, issuance and presentation.
 - The number of credentials requested per PID batch is now 5 by default (previously 10).
 
-**Security**=
-- Credential request and response encryption now depends on the issuer's metadata (response encryption is supported, not forced). (Fixes Issue #29.)
-- Keychain write failures for the encryption key and MDVM registration are now handled.
-- Initialisation of the wallet data encryption key is now atomic.
-
 **Fixes**
+- Credential request and response encryption now depends on the issuer's metadata (response encryption is supported, not forced). (Fixes issue #29)
 - The presentation request is now fetched only once.
 - Presentation rate limit errors are shown correctly.
 - Presentation error handling was updated for changed upstream errors.
@@ -19,4 +15,4 @@
 - Accessibility focus on the "no internet" popup is fixed.
 
 **Known issues**
-- To be confirmed by the team.
+- PID credentials may display incorrectly or not at all (issue #20).
