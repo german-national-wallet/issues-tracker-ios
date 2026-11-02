@@ -1,4 +1,4 @@
-### Release v0.4.12 (82)
+### Release v0.4.13 (83)
 
 **Features**
 - The app detects when the device is offline at the network layer and shows an accessible "no internet" dialog during presentation, issuance, onboarding and PID deletion.
@@ -6,11 +6,12 @@
 - The number of credentials requested per PID batch is now 5 by default (previously 10).
 
 **Security**=
-- Credential request and response encryption now depends on the issuer's metadata (response encryption is supported, not forced).
+- Credential request and response encryption now depends on the issuer's metadata (response encryption is supported, not forced). (Fixes Issue #29.)
 - Keychain write failures for the encryption key and MDVM registration are now handled.
 - Initialisation of the wallet data encryption key is now atomic.
 
 **Fixes**
+- The presentation request is now fetched only once.
 - Presentation rate limit errors are shown correctly.
 - Presentation error handling was updated for changed upstream errors.
 - The eID card PIN retry after a wrong PIN is fixed.

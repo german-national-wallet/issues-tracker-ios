@@ -2,7 +2,7 @@
 
 A public repository for issues management and bug reporting for Germany's iOS Wallet Application
 
-Current version: [v0.4.12 (82)](/release-notes/release-v0.4.12-(82).md)
+Current version: [v0.4.13 (83)](/release-notes/release-v0.4.13-(83).md)
 
 ## Supported features
 
