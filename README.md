@@ -23,12 +23,12 @@ Current version: [v0.4.13 (83)](/release-notes/release-v0.4.13-(83).md)
 | OpenID4VP | Verify the verifier identity, supported client_id_schemes are <ul><li>x509_san_dns</li> and <li>x509_hash</li></ul> | ✅ | 0.2.4 (59) |
 | OpenID4VP | Send encrypted presentation responses to verifiers | ✅ | 0.2.4 (59) |
 | OpenID4VP | Prevent overasking using RP Registration Certificates included in the presentation requests | ✅ | 0.3.9 (80) |
-| OpenID4VCI | Obtain information about the issuer using Issuers' Registration Certificates included in the issuer metadata | October 2026 |
 
 ## Upcoming features
 
 | Area | Feature | Expected |
 |---|---|---|
+| OpenID4VCI | Obtain information about the issuer using Issuers' Registration Certificates included in the issuer metadata | October 2026 |
 | OpenID4VCI | Support non key-bound EAAs | October 2026 |
 | OpenID4VCI | Encrypt credential issuance responses | ✅ | 0.4.3 (80) |
 
