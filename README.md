@@ -2,7 +2,7 @@
 
 A public repository for issues management and bug reporting for Germany's iOS Wallet Application
 
-Current version: [v0.4.3 (81)](/release-notes/release-v0.4.3-(81).md)
+Current version: [v0.4.13 (83)](/release-notes/release-v0.4.13-(83).md)
 
 ## Supported features
 
@@ -30,6 +30,6 @@ Current version: [v0.4.3 (81)](/release-notes/release-v0.4.3-(81).md)
 |---|---|---|
 | OpenID4VCI | Obtain information about the issuer using Issuers' Registration Certificates included in the issuer metadata | October 2026 |
 | OpenID4VCI | Support non key-bound EAAs | October 2026 |
-| OpenID4VCI | Encrypt credential issuance responses | October 2026 |
+| OpenID4VCI | Encrypt credential issuance responses | ✅ | 0.4.3 (80) |
 
 note that no support for Digital Credentials API is planned due to the lack of support on iOS
